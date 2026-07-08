@@ -1,0 +1,83 @@
+<h2 class="page-headline">
+  Galería visual
+  <span>Imágenes de nuestros proyectos audiovisuales</span>
+</h2>
+
+<p class="lead-text">
+  Una selección de trabajos y referencias de fotografía, animación y edición realizados durante nuestro aprendizaje en el SENA.
+</p>
+
+<div class="columns columns-2">
+  <article class="article">
+    <div class="article-meta"><span class="tag">Fotografía</span></div>
+    <h3 class="article-title">Encuadre y composición</h3>
+    <div class="article-body">
+      <p>La regla de los tercios, las líneas guía y el balance visual son principios fundamentales que aplicamos en cada sesión fotográfica.</p>
+    </div>
+  </article>
+
+  <article class="article">
+    <div class="article-meta"><span class="tag">Animación</span></div>
+    <h3 class="article-title">Secuencias de cuadros</h3>
+    <div class="article-body">
+      <p>Cada proyecto de animación comienza con un storyboard: bocetos que planifican el movimiento antes de animar.</p>
+    </div>
+  </article>
+</div>
+
+<div class="gallery-grid">
+  <figure class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1452587925148-ce544e77ee70?w=400&h=300&fit=crop" alt="Cámara fotográfica" loading="lazy">
+    <figcaption>📷 Fotografía — Equipo y técnica</figcaption>
+  </figure>
+  <figure class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=300&fit=crop" alt="Proyector de cine" loading="lazy">
+    <figcaption>🎬 Animación — Cine y movimiento</figcaption>
+  </figure>
+  <figure class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1611532736597-de2d0365cba3?w=400&h=300&fit=crop" alt="Edición de video" loading="lazy">
+    <figcaption>🖥️ Edición — Postproducción digital</figcaption>
+  </figure>
+  <figure class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop" alt="Luz natural" loading="lazy">
+    <figcaption>💡 Iluminación — La luz como protagonista</figcaption>
+  </figure>
+  <figure class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=300&fit=crop" alt="Estudio de grabación" loading="lazy">
+    <figcaption>🎞️ Stop Motion — Creatividad frame a frame</figcaption>
+  </figure>
+  <figure class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop" alt="Software de edición" loading="lazy">
+    <figcaption>✂️ Herramientas — Software de edición</figcaption>
+  </figure>
+</div>
+
+<div class="gallery-upload">
+  <h2>📸 Agregar imagen a la galería</h2>
+  <p class="gallery-hint">Publica una imagen con descripción. Se guardará en tu navegador.</p>
+  <form id="gallery-form">
+    <div class="form-row">
+      <div class="form-group">
+        <label for="gallery-url">URL de la imagen</label>
+        <input type="url" id="gallery-url" required placeholder="https://ejemplo.com/imagen.jpg">
+      </div>
+      <div class="form-group">
+        <label for="gallery-caption">Descripción</label>
+        <input type="text" id="gallery-caption" required placeholder="Ej: Mi proyecto de stop motion">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="gallery-category">Categoría</label>
+      <select id="gallery-category">
+        <option value="Fotografía">Fotografía</option>
+        <option value="Animación">Animación</option>
+        <option value="Edición">Edición</option>
+      </select>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn">Agregar a galería</button>
+    </div>
+  </form>
+</div>
+
+<div class="gallery-grid gallery-user" id="user-gallery"></div>

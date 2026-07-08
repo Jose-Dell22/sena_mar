@@ -1,0 +1,50 @@
+<h2 class="page-headline">
+  Contacto
+  <span>Escríbenos — Estamos atentos a tus mensajes</span>
+</h2>
+
+<div class="columns columns-2">
+  <div class="section-block">
+    <h3>Información de contacto</h3>
+    <ul>
+      <li>📧 <strong>Correo:</strong> elaudiovisual@sena.edu.co</li>
+      <li>📍 <strong>Ubicación:</strong> Centro de Formación SENA</li>
+      <li>🕐 <strong>Horario:</strong> Lun — Vie, 8:00 a.m. — 5:00 p.m.</li>
+      <li>📱 <strong>WhatsApp:</strong> <a id="whatsapp-link" href="#" target="_blank" rel="noopener">Escríbenos directamente</a></li>
+      <li>📸 <strong>Redes:</strong> @ElAudiovisualSENA</li>
+    </ul>
+  </div>
+
+  <div class="section-block">
+    <h3>¿Tienes una noticia?</h3>
+    <p class="contacto-note">
+      Si deseas enviar material para publicar en el periódico, usa el formulario o visita la sección de <a href="index.html">Inicio</a> para publicar directamente.
+    </p>
+  </div>
+</div>
+
+<form class="contact-form" id="contact-form">
+  <div id="contact-alert"></div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="contact-name">Nombre completo</label>
+      <input type="text" id="contact-name" required placeholder="Tu nombre">
+    </div>
+    <div class="form-group">
+      <label for="contact-email">Correo electrónico</label>
+      <input type="email" id="contact-email" required placeholder="tu@correo.com">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="contact-subject">Asunto</label>
+    <input type="text" id="contact-subject" required placeholder="Ej: Consulta sobre animación">
+  </div>
+  <div class="form-group">
+    <label for="contact-message">Mensaje</label>
+    <textarea id="contact-message" required placeholder="Escribe tu mensaje aquí..."></textarea>
+  </div>
+  <div class="form-actions">
+    <button type="submit" class="btn btn-whatsapp">Enviar por WhatsApp</button>
+    <button type="reset" class="btn btn-outline">Limpiar</button>
+  </div>
+</form>
