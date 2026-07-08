@@ -8,23 +8,28 @@
   font-size: 0.95rem;
 }
 
-.contacto-note a,
-#whatsapp-link {
+.contacto-note a {
   color: var(--accent);
 }
 
-#whatsapp-link:hover {
-  text-decoration: underline;
+.btn-submit {
+  border-color: var(--accent);
+  background: var(--accent);
 }
 
-.btn-whatsapp {
-  border-color: #25d366;
-  background: #25d366;
-}
-
-.btn-whatsapp:hover {
+.btn-submit:hover {
   background: transparent;
-  color: #25d366;
+  color: var(--accent);
+}
+
+.alert-error {
+  background: #ffebee;
+  border-color: #c62828;
+  color: #b71c1c;
+}
+
+.alert-error a {
+  color: inherit;
 }
 
 .alert {
